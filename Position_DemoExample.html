@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Position</title>
+	<style>
+		div#myDIVParent{
+			position:static;
+		    width:100px;
+		    height:100px;
+		    background:blue;
+		    left:500px;
+		    top:500px;
+		}
+
+
+		div#myDIV1 {
+		    position:absolute;
+		    width:100px;
+		    height:100px;
+		    background:red;
+		    left:500px;
+		    top:200px;
+		}
+
+		div#myDIV2 {
+			position:relative;
+			width:100px;
+		    height:100px;
+		    background:green;
+		    left:50px;
+		    top:50px;
+
+		}
+
+		div#myDIV3 {
+			position:relative;
+		    width:100px;
+		    height:100px;
+		    background:pink;
+		    left:20px;
+		    top:20px;
+
+		}
+
+		div#myDIV4 {
+			position:fixed;
+		    width:100px;
+		    height:100px;
+		    background:lightblue;
+		    left:400px;
+		    top:400px;
+
+		}
+
+	</style>
+</head>
+<body>
+	<!-- Position:absolute -->
+	<div id="myDIVParent"> myDIVParent--static </div>
+    <div id="myDIV1">myDIV1- absolute</div>
+
+	<!-- Position:relative -->
+	<div id="myDIV2">myDIV2</div>
+	<div id="myDIV3">myDIV3--relative</div>
+
+	<!-- Position:fixed -->
+	<div id="myDIV4">myDIV4-- fixed</div>
+</body>
+</html>
